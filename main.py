@@ -6,7 +6,7 @@ from database import urls
 from pymongo import MongoClient
 from qrcode import qr_code
 
-connection_string="mongodb+srv://Tanay:Jaisinghani@cluster0.hhui85f.mongodb.net/"
+connection_string="mongodb+srv://cosdp:kdp1234@mflix.slvq0y2.mongodb.net/test"
 mongo_db=MongoClient(connection_string)
 databsae=mongo_db.UrlShortner
 
