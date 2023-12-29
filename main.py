@@ -13,7 +13,7 @@ databsae=mongo_db.UrlShortner
 collection=databsae.urls
 
 qr_obj=qr_code()
-base_url="https://kdpurlshortner-6248.onrender.com/"
+base_url="https://kdpurlshortner.onrender.com/"
 url_obj=urls(databsae.urls)
 class addURL(BaseModel):
     special_key:str
