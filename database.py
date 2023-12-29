@@ -1,10 +1,10 @@
-from pymongo import MongoClient
+#from pymongo import MongoClient
 
-connection_string="mongodb+srv://Tanay:Jaisinghani@cluster0.hhui85f.mongodb.net/"
-mongo_db=MongoClient(connection_string)
-databsae=mongo_db.UrlShortner
+#connection_string="mongodb+srv://Tanay:Jaisinghani@cluster0.hhui85f.mongodb.net/"
+#mongo_db=MongoClient(connection_string)
+#databsae=mongo_db.UrlShortner
 
-collection=databsae.urls
+#collection=databsae.urls
 
 #
 #collection.count_documents()
