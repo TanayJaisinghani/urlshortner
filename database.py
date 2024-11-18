@@ -11,7 +11,7 @@
 
 #print(collection.find_one({"special_key":"9ai"}))
 
-class urls():
+class urls(): 
     def __init__(self,mongo_db_collection_object)->None: 
         self.db= mongo_db_collection_object
         
